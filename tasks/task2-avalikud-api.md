@@ -6,7 +6,7 @@
 JSONPlaceholder ja Rick & Morty API on avalikud REST teenused. Sinu FastAPI backend peab need koondama ühte etteaimatavasse skeemi, mida hiljem testid ja koormusstsenaariumid kasutavad.
 
 ## Ülesanne (60%)
-- `cd backend && python -m venv .venv && source .venv/bin/activate && pip install -r requirements.txt`.
+- macOS/Linux: `cd backend && python -m venv .venv && source .venv/bin/activate && pip install -r requirements.txt`; Windows PowerShell: `cd backend; python -m venv .venv; .\.venv\Scripts\Activate.ps1; pip install -r requirements.txt`.
 - Käivita `uvicorn backend.main:rakendus --reload` ja testi `GET /status`.
 - Täienda `/api/koond`, et mõlemad API-d kutsutakse ja vastus sisaldab `postitus`, `tegelane`, `allikad`, `paastikuAeg`.
 - Lisa logid ning HTTP 502 detailid vigade korral.

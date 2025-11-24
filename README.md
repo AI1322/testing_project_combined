@@ -23,11 +23,11 @@ Mitmefaasiline õppeprojekt, mis ühendab avalikud API-d, GA4 sündmused, A/B ek
 > Repo sisaldab ainult näidiskoodi ja skelette. Kõik ülaltoodud sammud täidetakse tudengite poolt ning iga ülesanne kontrollitakse eraldi.
 
 ### Käivitamine (kiirstart)
-- **Backend**: `cd backend && python -m venv .venv && source .venv/bin/activate && pip install -r requirements.txt && uvicorn backend.main:rakendus --reload`
-- **Frontend**: `cd frontend && python -m http.server 4173` ja ava `http://localhost:4173`
-- **Pytest**: `source .venv/bin/activate && pytest tests-python tests-integration -v`
-- **Jest**: `cd tests-js && npm install && npm test`
-- **Locust**: `source .venv/bin/activate && locust -f tests-performance-locust/locustfile.py --headless -u 20 -r 2 --run-time 3m --host http://localhost:8000`
+- **Backend**: macOS/Linux – `cd backend && python -m venv .venv && source .venv/bin/activate && pip install -r requirements.txt && cd .. && uvicorn backend.main:rakendus --reload`; Windows PowerShell – `cd backend; python -m venv .venv; .\.venv\Scripts\Activate.ps1; pip install -r requirements.txt; cd ..; uvicorn backend.main:rakendus --reload`.
+- **Frontend**: macOS/Linux – `cd frontend && python -m http.server 4173`; Windows – `cd frontend; python -m http.server 4173` ning ava `http://localhost:4173`.
+- **Pytest**: macOS/Linux – `source .venv/bin/activate && pytest tests-python tests-integration -v`; Windows – `.\.venv\Scripts\Activate.ps1; pytest tests-python tests-integration -v`.
+- **Jest**: `cd tests-js && npm install && npm test` (mõlemal platvormil sama).
+- **Locust**: macOS/Linux – `source .venv/bin/activate && locust -f tests-performance-locust/locustfile.py --headless -u 20 -r 2 --run-time 3m --host http://localhost:8000`; Windows – `.\.venv\Scripts\Activate.ps1; locust -f tests-performance-locust/locustfile.py --headless -u 20 -r 2 --run-time 3m --host http://localhost:8000`.
 
 ## Lõpptoote nõuded (20%)
 - Täidetud testiplaan `docs/testplan.md` koos riskimaatriksi, ajajoone ja tööriistade tabeliga.

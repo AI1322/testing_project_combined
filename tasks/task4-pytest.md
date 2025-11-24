@@ -8,7 +8,7 @@ Pytest toetab lühikesi, loetavaid teste ning fixture'ite abil saab FastAPI klie
 ## Ülesanne (60%)
 - Loo vähemalt viis testi `tests-python/` kaustas (edukas vastus, välise vea käsitlus, ajatempli kontroll, skeem, logi).
 - Kasuta `TestClient` fixture'it ja `monkeypatch`/`responses` abil mokka väliskõned deterministlikuks.
-- Käivita `source .venv/bin/activate && pytest tests-python -v`, salvesta logi `docs/results/pytest/pytest.log` ja viita testiplaanis.
+- macOS/Linux: `source .venv/bin/activate && pytest tests-python -v`; Windows PowerShell: `.\.venv\Scripts\Activate.ps1; pytest tests-python -v`. Salvesta logi `docs/results/pytest/pytest.log` ja viita testiplaanis.
 
 ## Valmisoleku kontroll (20%)
 - `pytest tests-python -v` lõpeb roheliselt ja logi on `docs/results/pytest/`.
