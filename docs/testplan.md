@@ -1,4 +1,4 @@
-# Testiplaani mall
+# Testiplaan
 
 ---
 
@@ -328,9 +328,9 @@ Anton| Vigade käsitlemise test | Anton | 10 min |
 
 | Tegevus | Vastutaja | Aeg |
 |----------|---------------|-------|
-| Variandi loogika ja HTML testimine | Daria | 5-10 min |
-| Nupu ja sündmuste kontroll brauseris | Daria | 5 min |
-| Logide salvestamine | Daria | 5 min |
+| Variandi loogika ja HTML testimine | Anton | 5-10 min |
+| Nupu ja sündmuste kontroll brauseris | Anton | 5 min |
+| Logide salvestamine | Anton | 5 min |
 
 ## 8. Raporteerimine
 
@@ -343,7 +343,7 @@ Anton| Vigade käsitlemise test | Anton | 10 min |
 ## 1. Sissejuhatus
 
 **Projekti nimi:** Kvaliteedijälg – FastAPI backend integratsioonitestid 
-**Autorid ja kuupäev:** Daria, 26.11.2025 
+**Autorid ja kuupäev:** Anton, 26.11.2025 
 
 **Eesmärk:** tagada, et backend, välised API-d ja logimine töötavad koos ning integratsioonitestid toimivad ilma päris teenuseid tabamata.
 
@@ -395,8 +395,8 @@ Anton| Vigade käsitlemise test | Anton | 10 min |
 
 | Tegevus                                    | Vastutaja | Aeg       |
 | ------------------------------------------ | --------- | --------- |
-| Testide kirjutamine                        | Daria     | 10–15 min |
-| Testide käivitamine ja logide salvestamine | Daria     | 5 min     |
+| Testide kirjutamine                        | Anton     | 10–15 min |
+| Testide käivitamine ja logide salvestamine | Anton     | 5 min     |
 
 ## 8. Raporteerimine
 
@@ -411,7 +411,7 @@ Anton| Vigade käsitlemise test | Anton | 10 min |
 ## 1. Sissejuhatus
 
 **Projekti nimi:** Kvaliteedijälg – CI automatiseeritud testitöövoog  
-**Autorid ja kuupäev:** Daria, 26.11.2025  
+**Autorid ja kuupäev:** Anton, 26.11.2025  
 
 **Eesmärk:** tagada, et Python- ja JavaScript-testid käivitatakse automaatselt iga push'i ja pull request’i puhul ning testilogid ja CI töövoo info arhiveeritakse projekti dokumentatsiooni alla.
 
@@ -475,9 +475,9 @@ Anton| Vigade käsitlemise test | Anton | 10 min |
 
 | Tegevus | Vastutaja | Aeg |
 |---------|-----------|------|
-| Workflow loomine | Daria | 5–10 min |
-| Testide integreerimine workflow’sse | Daria | 5–10 min |
-| Artefaktide ja README genereerimine | Daria | 5 min |
+| Workflow loomine | Anton | 5–10 min |
+| Testide integreerimine workflow’sse | Anton | 5–10 min |
+| Artefaktide ja README genereerimine | Anton | 5 min |
 
 ## 8. Raporteerimine
 
@@ -496,7 +496,7 @@ Anton| Vigade käsitlemise test | Anton | 10 min |
 ## 1. Sissejuhatus
 
 **Projekti nimi:** Kvaliteedijälg – backend koormustestimine  
-**Autorid ja kuupäev:** Daria, 26.11.2025  
+**Autorid ja kuupäev:** Anton, 26.11.2025  
 
 **Eesmärk:** Kontrollida, kuidas backend talub 20–50 samaaegset kasutajat ja kas API latentsus jääb lubatud piiridesse. Genereerida CSV ja HTML aruanded dokumentatsiooni jaoks.
 
@@ -550,9 +550,9 @@ Anton| Vigade käsitlemise test | Anton | 10 min |
 
 | Tegevus | Vastutaja | Aeg |
 |---------|-----------|-----|
-| Backend kontroll | Daria | 2 min |
-| Locust koormustesti käivitamine | Daria | 8 min |
-| Ekraanipiltide tegemine ja lisamine | Daria | 5 min |
+| Backend kontroll | Anton | 2 min |
+| Locust koormustesti käivitamine | Anton | 8 min |
+| Ekraanipiltide tegemine ja lisamine | Anton | 5 min |
 
 ## 8. Raporteerimine
 
